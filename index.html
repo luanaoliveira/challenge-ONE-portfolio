@@ -5,37 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Luana Oliveira</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./scripts"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="./scripts.js"></script>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="./assets/img-logo.png" alt="Imagem da logo">
-            <p>Luana Oliveira</p>
-        </div>
-        <div class="navbar">
-            <div class="nav_link">
-                <a href="">Sobre mim</a>
+        <nav class="toolbar">
+            <div class="logo">
+                <img class="logo-img" src="./assets/img-logo.png" alt="Imagem da logo">
+                <p class="logo_text">Luana Oliveira</p>
             </div>
-            <div class="nav_link">
-                <a href="">Skills</a>
+            <div class="navbar">
+                <div class="nav_link">
+                    <a href="#about-me">Sobre mim</a>
+                </div>
+                <div class="nav_link">
+                    <a href="#skills">Skills</a>
+                </div>
+                <div class="nav_link">
+                    <a href="#hobbies">Hobbies</a>
+                </div>
+                <div class="nav_link">
+                    <a href="#academic_education">Formação</a>
+                </div>
+                <div class="nav_link">
+                    <a href="#academic_education">Projetos</a>
+                </div>
+                <div class="nav_link">
+                    <a href="contact">Contato</a>
+                </div>
             </div>
-            <div class="nav_link">
-                <a href="">Hobbies</a>
-            </div>
-            <div class="nav_link">
-                <a href="">Formação</a>
-            </div>
-            <div class="nav_link">
-                <a href="">Sobre mim</a>
-            </div>
-            <div class="nav_link">
-                <a href="">Projetos</a>
-            </div>
-            <div class="nav_link">
-                <a href="">luanasilva.jua@gmail.com</a>
-            </div>
-        </div>
+        </nav>
     </header>
     <main>
         <div>
@@ -50,7 +52,7 @@
         </div>
 
         <div class="about-me">
-            <h2>Sobre mim</h2>
+            <h2 id="about-me">Sobre mim</h2>
             <p>Olá! Eu me chamo Luana e sou aprendiz de desenvolvimento web.
 
             Desde de agosto de 2021 venho estudando as tecnologias da web e participando de cursos, bootcamps e hackathons para desenvolver meus conhecimentos sobre as principais tecnologias do mercado. Já tenho conhecimento sobre as tecnologias básicas - HTML, JavaScript, CSS e HTTP - como também tenho me aventurado em projetos com tecnologias de mercado - TypeScript, React, Node e C#.
@@ -60,7 +62,7 @@
         </div>
 
         <div class="skills">
-            <h2>Skills</h2>
+            <h2 id="skills">Skills</h2>
             <p>HTML5</p>
             <p>CSS</p>
             <p>JavaScript</p>
@@ -71,7 +73,7 @@
         </div>
 
         <div class="hobbies">
-            <h2>Hobbies</h2>
+            <h2 id="hobbies">Hobbies</h2>
             <p>Ouvir música</p>
             <p>Assitir filmes</p>
             <p>Assitir séries</p>
@@ -79,7 +81,7 @@
         </div>
         
         <div class="academic_education">
-            <h2>Formação Acadêmica</h2>
+            <h2 id="academic_education">Formação Acadêmica</h2>
             <p></p>
         </div>
 
@@ -88,7 +90,7 @@
         </div>
 
         <div class="contact">
-            <h2>Contato</h2>
+            <h2 id="contact">Contato</h2>
             <p>Quer entrar em contato comigo?</p>
             <p>Preencha o formulário no lado e entrarei em contato o mais rápido possível.</p>
             <label for="name">Nome</label>
